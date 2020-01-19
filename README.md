@@ -1,6 +1,7 @@
-# ProjetoTesteCieloEntrevista
+# ProjetoTesteAngular7StarWarsAPI
 
-Projeto para entrevista de Angular para Cielo, feito por Victor Guilherme de Melo Santos, Um READ/LIST básico de API + Login sem validação conforme padrões listados abaixo
+Projeto teste Angular 7 + API pública de Star Wars
+Um READ/LIST básico de API + Login sem validação conforme padrões listados abaixo
 
 Para funcionar o projeto necessário:
 
@@ -11,8 +12,6 @@ VS Code comandos: npm i -
 
 VS Code comandos: ng serve --open 
   abrir no browser o site
-
-OBS.: APROVEITEI UM PROJETO JA PRONTO DE TESTE DE ANGULAR Q EU TINHA FEITO, AJUSTEI PARA CIELO, NA INTERNACIONALIZACAO VAO TER MAIS PALAVRAS E ALGUNS CODIGOS A MAIS TAMBEM, FAVOR DESCONSIDERAR, POUCO TEMPO PARA REALIZAR O TESTE DEVIDO TRABALHO ATUAL, PERDAO.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.0.
 
