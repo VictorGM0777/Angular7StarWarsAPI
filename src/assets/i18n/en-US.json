@@ -1,0 +1,193 @@
+{
+  "Functionality": {
+    "Home": "Home",
+    "CompanyData": "Company data",
+    "MachineFrequencyExecution": "Machine Frequency",
+    "MonitorEvents": "Monitor Events",
+    "MachineSettings": "Machine Settings",
+    "WindowsEvents": "Heroes",
+    "Exit": "Exit"
+  },
+
+  "MachineFrequencyExecution": {
+    "Form": {
+      "FrequencyDays": "Frequency in days",
+      "StartDate": "Start date",
+      "EndDate": "End date"
+    },
+    "Dialog": {
+      "Title": "Frequência de Execução",
+      "Text": "Do you really want to save the execution frequency?",
+      "MessageUpdate": "The execution frequency has been successfully updated.",
+      "MessageRegister": "The execution frequency was successfully registered."
+    },
+    "Title": "Machine Settings Collection Frequency"
+  },
+
+  "MachineSettings": {
+    "Detail": {
+      "MachineName": "Machine name",
+      "Ip": "Ip",
+      "UserDomainName": "User domain name",
+      "UserName": "User name",
+      "OSVersion": "Operating system version",
+      "ServicePack": "Service Pack",
+      "Is64BitSO": "OS Version",
+      "Manufacturer": "Manufacturer",
+      "Model": "Model",
+      "SerialNumber": "Serial Number",
+      "LastBootUpTime": "Last Bootup Time",
+      "Processor": "Processor",
+      "ProcessorCount": "Processor cores",
+      "Is64BitProcessador": "Processor 64-bit",
+      "TotalMemory": "Memory RAM",
+      "DiskList": "Disk List",
+      "Partition": "Partition",
+      "VolumeName": "Volume Name",
+      "TotalSize": "Total Size",
+      "FreeSpace": "Free Space",
+      "ProcessList": "List of running process",
+      "IdProcess": "Id Process",
+      "ProcessName": "Process Name",
+      "ProcessDescription": "Process Description",
+      "LastLogDate": "Last data collection date"
+    },
+    "Form": {
+      "MachineName": "Machine name"
+    },
+    "NotFound": "Could not find a machine with this name.",
+    "Title": "Network Machine Settings"
+  },
+
+  "WindowsEvents": {
+    "Detail": {
+      "WindowsEventViewer": "Windows Event Viewer",
+      "Event": "Event",
+      "Message": "Message",
+      "Type": "Type",
+      "GeneratedDate": "Generated Date",
+      "WritedDate": "Writed Date",
+      "Machine": "Machine",
+      "User": "User",
+      "InstaceID": "Instace ID",
+      "Source": "Source",
+      "Category": "Category",
+      "NumberCategory": "Number Category",
+      "ReplacementStrings": "Replacement Strings"
+    },
+    "Form": {
+      "MachineName": "Machine name"
+    },
+    "Master": {
+      "Filter": "Filter",
+      "GeneratedDate": "Generated Date",
+      "ErrorType": "Error Type",
+      "EventType": "Event Type",
+      "NotFound": "Event Viewer logs for machine with this name could not be found."
+    },
+    "Title": "Heroes"
+  },
+
+  "EventParameters":{
+    "ParametersEventMonitoring": "Parameters for Event Monitoring",
+    "AvailableCategories": "Available categories for filter",
+    "EventType": "Event Type",
+    "ExecutionFrequency": "Service Execution Frequency",
+    "NewEvent": "New Event Category",
+    "Form": {
+      "FrequencyMinutes": "Frequency in minutes",
+      "StartDate": "Start date",
+      "EndDate": "End date",
+      "FirstRun": "Days to search for first run"
+    },
+    "Table": {
+      "Category": "Category"
+    },
+    "Dialog": {
+      "Title": "Save Parameters",
+      "Text": "Do you really want to save this parameterization?",
+      "TitleNewItem": "Add New Item",
+      "Placeholder": "Description",
+      "SucessAdd": "Successfully Added! Click on Save to finish the process.",
+      "Remove": "Do you really want to delete this item?",
+      "SucessRemove": "Successfully removed! Click on Save to finish the process."
+    }
+  },
+
+  "Login": {
+    "Form": {
+      "User": "User",
+      "Password": "Password"
+    },
+    "Dialog": {
+      "InvalidTitle": "Try again",
+      "InvalidText": "Invalid Login or password.",
+      "Title": "Star Wars Teste",
+      "Text": "Unregistered user."
+    },
+    "Title": "Login"
+  },
+
+  "CompanyRegister":{
+    "Form": {
+      "CompanyName": "Company Name",
+      "Cnpj": "CNPJ",
+      "Telephone": "Phone",
+      "Email":"Email",
+      "User": "User",
+      "Password": "Password",
+      "ConfirmPassword": "Confirm Password"
+    },
+    "Dialog": {
+      "Title": "Star Wars Teste",
+      "Text": "Company registered successfully.",
+      "WarningTitle": "Attention",
+      "WarningText": "Company is already registered."
+    },
+    "Title":"Register Company"
+  },
+
+  "CompanyData":{
+    "Form": {
+      "Telephone": "Telephone",
+      "Email":"Email",
+      "Password": "Current Password",
+      "NewPassword": "New Password",
+      "ConfirmNewPassword": "Confirm New Password"
+    },
+    "Dialog": {
+      "Title": "Star Wars Teste",
+      "Text": "Data updated successfully.",
+      "Verify": "Check the entered data.",
+      "Password": "The current password is not right.",
+      "NewPassword": "The current password is the same as the new password."
+    },
+    "Title":"Update Data"
+  },
+
+  "Button": {
+    "Login": "Login",
+    "Signup": "Sign up",
+    "Cancel": "Cancel",
+    "Return": "Return",
+    "Save": "Save",
+    "Search": "Search",
+    "Update": "Update"
+  },
+
+  "Actions": "Actions",
+  "Error": "Error",
+  "Warning": "Warning",
+  "Information": "Information",
+  "SuccessAudit": "Success Audit",
+  "FailureAudit": "Failure Audit",
+  "UndefinedError": "Undefined Error",
+  "Yes": "Yes",
+  "No": "No",
+  "SucessAdd": "Successfully Added!",
+  "WannaLeave": "Do you really want to leave?",
+  "SuccessSave": "Data saved successfully!",
+  "RequiredField": "The field is required.",
+  "RequiredValidField": "The field is required and must be valid.",
+  "Verify": "Check the entered data."
+}

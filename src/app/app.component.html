@@ -1,0 +1,11 @@
+<menu *ngIf="getLogin()" style="margin-top: 0; padding-inline-start: 0"></menu>
+<mat-toolbar *ngIf="!getLogin()" color="primary">
+  <mat-toolbar-row>
+    <span> Teste Angular 7 Star Wars API</span>
+    <span class="spacer"></span>
+    <button mat-button (click)="trocarIdioma('pt-BR')"> BR </button>
+    <button mat-button (click)="trocarIdioma('en-US')"> US </button>
+    <button mat-button (click)="trocarIdioma('es-ES')"> ES </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<login *ngIf="!getLogin()"></login>

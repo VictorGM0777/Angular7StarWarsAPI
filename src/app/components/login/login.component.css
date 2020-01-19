@@ -1,0 +1,27 @@
+.card-login {
+  width: 280px;
+  height: 310px;
+  margin: 9% auto;
+  border: 1px solid #3f51b5;
+  box-sizing: border-box;
+}
+
+.mat-card-title{
+  font-size: 16px;
+}
+
+.logo {
+  width: 8%;
+  margin-right: 3%;
+}
+
+@media screen and (max-width: 600px){
+  .logo {
+    width: 23%;
+    margin-right: 3%;
+  }
+}
+
+.button{
+  margin-top: 20%;
+}

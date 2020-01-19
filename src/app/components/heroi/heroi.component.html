@@ -1,0 +1,37 @@
+<mat-card>
+
+    <mat-card-header>
+      <mat-card-title><h3>{{ 'WindowsEvents.Title' | translate }}</h3></mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+
+      <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="20px" fxLayoutWrap>
+
+        <div fxLayout="column" fxLayout.xs="row" fxLayoutAlign.xs="center center">
+          <button mat-raised-button color="primary" (click)="buscar()">
+            {{ 'Button.Search' | translate }}
+          </button>
+        </div>
+
+      </div>
+
+      <div *ngIf="carregandoDados()" fxLayout="row" fxLayout.xs="row" fxLayoutAlign="center center">
+        <mat-spinner></mat-spinner>
+      </div>
+
+      <app-heroi-master [listaHeroi]="listaHeroi" *ngIf="exibirLista()"></app-heroi-master>
+
+    </mat-card-content>
+
+    <mat-card-actions>
+
+      <div fxLayout="row" dir="rtl">
+        <button mat-raised-button color="primary" (click)="voltar()">
+          {{ 'Button.Return' | translate }}
+        </button>
+      </div>
+
+    </mat-card-actions>
+
+</mat-card>

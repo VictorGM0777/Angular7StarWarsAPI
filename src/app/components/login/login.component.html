@@ -1,0 +1,47 @@
+<mat-card class="card-login">
+
+  <mat-card-content>
+
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <h3>{{ 'Login.Title' | translate }}</h3>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <mat-form-field fxLayout="column" fxFlex="80%">
+        <input matInput placeholder="{{ 'Login.Form.User' | translate }}"
+        [formControl]="formulario.controls['usuario']" [(ngModel)]="empresa.login" required/>
+        <mat-error>{{ 'RequiredField' | translate }}</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <mat-form-field fxLayout="column" fxFlex="80%">
+        <input matInput [type]="esconder ? 'password' : 'text'" placeholder="{{ 'Login.Form.Password' | translate }}"
+        [formControl]="formulario.controls['senha']" [(ngModel)]="empresa.senha" required/>
+        <mat-icon matSuffix (click)="esconder = !esconder">{{esconder ? 'visibility' : 'visibility_off'}}</mat-icon>
+        <mat-error>{{ 'RequiredField' | translate }}</mat-error>
+      </mat-form-field>
+    </div>
+
+  </mat-card-content>
+
+  <div class="button" fxLayout="row" fxLayoutAlign="center">
+    <mat-card-actions>
+
+      <button mat-raised-button color="primary" (click)="entrar()">
+        <div fxLayout="row" fxLayoutGap="7px">
+          <div fxLayout="column">
+            {{ 'Button.Login' | translate }}
+          </div>
+        </div>
+      </button>
+
+    </mat-card-actions>
+  </div>
+
+</mat-card>
+
+<div dir="rtl">
+  <img class="logo" src="./assets/starwars.png" alt="logo">
+</div>
+

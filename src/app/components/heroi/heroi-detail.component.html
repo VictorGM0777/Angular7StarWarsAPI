@@ -1,0 +1,105 @@
+<mat-card class="example-card">
+
+  <mat-card-header>
+    <mat-card-title>{{ 'WindowsEvents.Title' | translate }}</mat-card-title>
+    <mat-card-subtitle>{{ heroi.name }}</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+
+    <h5>FINALIZANDO TESTE COM NOME DO HEROI PASSANDO DADOS ENTRE COMPONENTS ACIMA NO SUBTITULO DO MATCARD</h5>
+
+    <!--
+    <div fxLayout="row">
+
+      <mat-form-field fxLayout="column" fxFlex="100%">
+        <textarea matInput readonly="true" rows="4" [(ngModel)]="evento.mensagem" readonly="true"></textarea>
+        <mat-hint>{{ 'WindowsEvents.Detail.Message' | translate }}</mat-hint>
+      </mat-form-field>
+
+    </div>
+
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px" fxLayoutGap.xs="0px">
+
+      <mat-form-field fxLayout="column" fxFlex="33%" fxFlex.xs="100%">
+        <input matInput [(ngModel)]="tipoEvento"  readonly="true"/>
+        <mat-hint>{{ 'WindowsEvents.Detail.Type' | translate }}</mat-hint>
+      </mat-form-field>
+
+      <mat-form-field fxLayout="column" fxFlex="33%" fxFlex.xs="100%">
+        <input matInput [ngModel]="evento.dataGeracao | date: 'medium' : undefined : getIdioma()"  readonly="true"/>
+        <mat-hint>{{ 'WindowsEvents.Detail.GeneratedDate' | translate }}</mat-hint>
+      </mat-form-field>
+
+      <mat-form-field fxLayout="column" fxFlex="33%" fxFlex.xs="100%">
+        <input matInput [ngModel]="evento.dataGravacao | date: 'medium' : undefined : getIdioma()" readonly="true"/>
+        <mat-hint>{{ 'WindowsEvents.Detail.WritedDate' | translate }}</mat-hint>
+      </mat-form-field>
+
+    </div>
+
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px" fxLayoutGap.xs="0px">
+
+      <mat-form-field fxLayout="column" fxFlex="50%" fxFlex.xs="100%">
+        <input matInput [(ngModel)]="evento.nomeMaquina" readonly="true"/>
+        <mat-hint>{{ 'WindowsEvents.Detail.Machine' | translate }}</mat-hint>
+      </mat-form-field>
+
+      <mat-form-field fxLayout="column" fxFlex="50%" fxFlex.xs="100%">
+        <input matInput [(ngModel)]="evento.nomeUsuario" readonly="true"/>
+        <mat-hint>{{ 'WindowsEvents.Detail.User' | translate }}</mat-hint>
+      </mat-form-field>
+
+    </div>
+
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px" fxLayoutGap.xs="0px">
+
+      <mat-form-field fxLayout="column" fxFlex="25%" fxFlex.xs="100%">
+        <input matInput [(ngModel)]="evento.idInstancia" readonly="true"/>
+        <mat-hint>{{ 'WindowsEvents.Detail.InstaceID' | translate }}</mat-hint>
+      </mat-form-field>
+
+      <mat-form-field fxLayout="column" fxFlex="25%" fxFlex.xs="100%">
+        <input matInput [(ngModel)]="evento.fonte" readonly="true"/>
+        <mat-hint>{{ 'WindowsEvents.Detail.Source' | translate }}</mat-hint>
+      </mat-form-field>
+
+      <mat-form-field fxLayout="column" fxFlex="25%" fxFlex.xs="100%">
+        <input matInput [(ngModel)]="evento.categoria" readonly="true"/>
+        <mat-hint>{{ 'WindowsEvents.Detail.Category' | translate }}</mat-hint>
+      </mat-form-field>
+
+      <mat-form-field fxLayout="column" fxFlex="25%" fxFlex.xs="100%">
+        <input matInput [(ngModel)]="evento.numeroCategoria" readonly="true"/>
+        <mat-hint>{{ 'WindowsEvents.Detail.NumberCategory' | translate }}</mat-hint>
+      </mat-form-field>
+
+    </div>
+
+    <div fxLayout="row">
+      <p><strong>{{ 'WindowsEvents.Detail.ReplacementStrings' | translate }}</strong></p>
+    </div>
+
+    <div *ngFor="let string of evento.caracteresSubstituicao">
+      <div fxLayout="row">
+        <p>
+          {{ string.toString() }}
+        </p>
+      </div>
+    </div>
+
+    -->
+
+  </mat-card-content>
+
+  <mat-card-actions>
+
+    <div fxLayout="row" dir="rtl">
+      <button mat-raised-button color="primary" (click)="voltar()">
+        {{ 'Button.Return' | translate }}
+      </button>
+    </div>
+
+  </mat-card-actions>
+
+</mat-card>

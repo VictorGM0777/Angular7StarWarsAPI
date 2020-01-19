@@ -1,0 +1,61 @@
+<mat-sidenav-container class="sidenav-container">
+
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport="true"
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="!(isHandset$ | async)">
+
+    <mat-toolbar>
+      <img class="logo" src="../../assets/starwars.png" alt="logo" />
+    </mat-toolbar>
+
+    <mat-nav-list>
+
+      <a mat-list-item routerLink="/home" (click)="drawer.toggle()">
+        <mat-icon class="icon-menu">home</mat-icon>
+        {{ 'Functionality.Home' | translate }}
+      </a>
+
+      <a mat-list-item routerLink="/event" (click)="drawer.toggle()">
+        <mat-icon class="icon-menu">description</mat-icon>
+        {{ 'Functionality.WindowsEvents' | translate }}
+      </a>
+
+      <a mat-list-item (click)="sair()">
+        <mat-icon class="icon-menu">logout</mat-icon>
+        {{ 'Functionality.Exit' | translate }}
+      </a>
+
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+
+    <mat-toolbar color="primary">
+
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+
+      <span>Star Wars</span>
+      <span class="example-spacer"></span>
+      <button mat-button (click)="trocarIdioma('pt-BR')"> BR </button>
+      <button mat-button (click)="trocarIdioma('en-US')"> US </button>
+      <button mat-button (click)="trocarIdioma('es-ES')"> ES </button>
+
+    </mat-toolbar>
+
+    <!-- Componentes sao carregados aki -->
+    <router-outlet></router-outlet>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

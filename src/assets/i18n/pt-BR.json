@@ -1,0 +1,193 @@
+{
+  "Functionality": {
+    "Home": "Página Inicial",
+    "CompanyData": "Dados empresa",
+    "MachineFrequencyExecution": "Frequência Máquina",
+    "MonitorEvents": "Monitorar Eventos",
+    "MachineSettings": "Configurações da Máquina",
+    "WindowsEvents": "Herois",
+    "Exit": "Sair"
+  },
+
+  "MachineFrequencyExecution": {
+    "Form": {
+      "FrequencyDays": "Frequência em dias",
+      "StartDate": "Data inicial execução do serviço",
+      "EndDate": "Data final execução do serviço"
+    },
+    "Dialog": {
+      "Title": "Frequência de Execução",
+      "Text": "Deseja realmente salvar a frenquência de execução?",
+      "MessageUpdate": "A frequência de execução foi atualizada com sucesso.",
+      "MessageRegister": "A frequência de execução foi cadastrada com sucesso."
+    },
+    "Title": "Frequência da Coleta das Configurações da Máquina"
+  },
+
+  "MachineSettings": {
+    "Detail": {
+      "MachineName": "Nome da máquina",
+      "Ip": "Ip",
+      "UserDomainName": "Nome de domínio do usuário",
+      "UserName": "Nome de usuário",
+      "OSVersion":"Versão sistema operacional",
+      "ServicePack": "Pacote de serviço",
+      "Is64BitSO": "Versao SO",
+      "Manufacturer": "Fabricante",
+      "Model": "Modelo",
+      "SerialNumber": "Número de Série",
+      "LastBootUpTime": "Última inicialização",
+      "Processor": "Processador",
+      "ProcessorCount": "Quantidade de núcleos do processador",
+      "Is64BitProcessador": "Processador 64 bits",
+      "TotalMemory": "Memória RAM",
+      "DiskList": "Lista de Disco",
+      "Partition": "Partição",
+      "VolumeName": "Nome Volume",
+      "TotalSize": "Tamanho Total",
+      "FreeSpace": "Espaço Livre",
+      "ProcessList": "Lista de Processos em Execução",
+      "IdProcess": "Id Processo",
+      "ProcessName": "Nome Processo",
+      "ProcessDescription": "Descrição Processo",
+      "LastLogDate": "Data da última coleta de dados"
+    },
+    "Form": {
+      "MachineName": "Nome da máquina"
+    },
+    "NotFound": "Não foi possível encontrar nehuma máquina com esse nome.",
+    "Title": "Configurações de Máquinas da Rede"
+  },
+
+  "WindowsEvents": {
+    "Detail":{
+      "WindowsEventViewer": "Visualizador de Eventos do Windows",
+      "Event": "Evento",
+      "Message": "Mensagem",
+      "Type":"Tipo",
+      "GeneratedDate": "Data Geração",
+      "WritedDate": "Data Gravação",
+      "Machine": "Máquina",
+      "User": "Usuário",
+      "InstaceID":"ID da Instância",
+      "Source": "Fonte",
+      "Category": "Categoria",
+      "NumberCategory": "Número Categoria",
+      "ReplacementStrings": "Caracteres de Substituição"
+    },
+    "Form": {
+      "MachineName": "Nome da máquina"
+    },
+    "Master":{
+      "Filter": "Pesquisar",
+      "GeneratedDate": "Data Geração",
+      "ErrorType": "Tipo do Erro",
+      "EventType": "Tipo do Evento",
+      "NotFound": "Não foi possível encontrar logs do Event Viewer para máquina com esse nome."
+    },
+    "Title": "Heróis"
+  },
+
+  "EventParameters":{
+    "ParametersEventMonitoring": "Parâmetros para Monitoração de Eventos",
+    "AvailableCategories": "Categorias disponíveis para filtro",
+    "EventType":"Tipos de Eventos",
+    "ExecutionFrequency": "Frequência de Execução do Serviço",
+    "NewEvent": "Nova Categoria de Evento",
+    "Form": {
+      "FrequencyMinutes": "Frequência em minutos",
+      "StartDate": "Data início",
+      "EndDate": "Data fim",
+      "FirstRun": "Dias para buscar na primeira execução"
+    },
+    "Table": {
+      "Category":"Categoria"
+    },
+    "Dialog": {
+      "Title": "Salvar Parâmetros",
+      "Text": "Deseja realmente salvar esta parâmetrização?",
+      "TitleNewItem": "Adicionar Novo Item",
+      "Placeholder": "Descrição",
+      "SucessAdd": "Adicionado com sucesso! Clique no Salvar para finalizar o processo.",
+      "Remove": "Deseja realmente excluir este item?",
+      "SucessRemove": "Removido com sucesso! Clique no Salvar para finalizar o processo."
+    }
+  },
+
+  "Login": {
+    "Form": {
+      "User": "Usuário",
+      "Password": "Senha"
+    },
+    "Dialog": {
+      "InvalidTitle": "Tente novamente",
+      "InvalidText": "Login ou senha inválidos.",
+      "Title": "Star Wars Teste",
+      "Text": "Usuário não cadastrado."
+    },
+    "Title": "Faça seu login"
+  },
+
+  "CompanyRegister":{
+    "Form": {
+      "CompanyName": "Razão Social",
+      "Cnpj": "CNPJ",
+      "Telephone": "Telefone",
+      "Email":"E-mail",
+      "User": "Usuário",
+      "Password": "Senha",
+      "ConfirmPassword": "Confirmar Senha"
+    },
+    "Dialog": {
+      "Title": "Star Wars Teste",
+      "Text": "Empresa cadastrada com sucesso.",
+      "WarningTitle": "Atenção",
+      "WarningText": "Empresa já está cadastrada."
+    },
+    "Title":"Cadastrar Empresa"
+  },
+
+  "CompanyData": {
+    "Form": {
+      "Telephone": "Telefone",
+      "Email":"E-mail",
+      "Password": "Senha Atual",
+      "NewPassword": "Nova Senha",
+      "ConfirmNewPassword": "Confirmar Nova Senha"
+    },
+    "Dialog": {
+      "Title": "Star Wars Teste",
+      "Text": "Dados atualizados com sucesso.",
+      "Verify":"Verifique os dados inseridos.",
+      "Password": "A senha atual não está correta.",
+      "NewPassword": "A senha atual está igual a nova senha."
+    },
+    "Title":"Atualizar Dados"
+  },
+
+  "Button": {
+    "Login": "Entrar",
+    "Signup": "Cadastrar",
+    "Cancel": "Cancelar",
+    "Return": "Voltar",
+    "Save": "Salvar",
+    "Search": "Buscar",
+    "Update": "Atualizar"
+  },
+
+  "Actions": "Ações",
+  "Error": "Erro",
+  "Warning": "Aviso",
+  "Information": "Informação",
+  "SuccessAudit": "Auditoria de Sucesso",
+  "FailureAudit": "Auditoria de Falha",
+  "UndefinedError": "Erro Indefinido",
+  "Yes": "Sim",
+  "No": "Não",
+  "SucessAdd": "Adicionado com sucesso!",
+  "WannaLeave": "Deseja realmente sair?",
+  "SuccessSave": "Dados salvos com sucesso!",
+  "RequiredField": "O campo é obrigatório.",
+  "RequiredValidField": "O campo é obrigatório e precisa ser válido.",
+  "Verify": "Verifique os campos inseridos."
+}

@@ -1,0 +1,8 @@
+{
+  "env": {
+    "name": "dev"
+  },
+  "apiServer": {
+    "caminho": "http://172.28.52.104:5000/api"
+  }
+}

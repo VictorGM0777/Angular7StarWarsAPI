@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>{{ dados.titulo }}</h1>
+<div mat-dialog-content>
+  <mat-form-field fxLayout="column" fxFlex="100%">
+    <input matInput placeholder="{{ dados.placeholder }}" [(ngModel)]="resultado" />
+  </mat-form-field>
+</div>
+<div mat-dialog-actions fxLayout="row" fxLayoutAlign="center center">
+  <button mat-button mat-dialog-close>{{ 'Button.Cancel' | translate }}</button>
+  <button mat-button [mat-dialog-close]="resultado" cdkFocusInitial>{{ 'Button.Save' | translate }}</button>
+</div>

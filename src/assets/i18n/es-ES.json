@@ -1,0 +1,193 @@
+{
+  "Functionality": {
+    "Home": "Página de inicio",
+    "CompanyData": "Datos empresariales",
+    "MachineFrequencyExecution": "Frecuencia de la máquina",
+    "MonitorEvents": "Monitoreo de Eventos",
+    "MachineSettings": "Configuración de la máquina",
+    "WindowsEvents": "Herois",
+    "Exit": "Cerrar sesión"
+  },
+
+  "MachineFrequencyExecution": {
+    "Form": {
+      "FrequencyDays": "Frecuencia en dias",
+      "StartDate": "Fecha de inicio",
+      "EndDate": "Fecha final"
+    },
+    "Dialog": {
+      "Title": "Frecuencia de la máquina",
+      "Text": "Desea realmente guardar la frecuencia de ejecución?",
+      "MessageUpdate": "La frecuencia de ejecución se ha actualizado con éxito.",
+      "MessageRegister": "La frecuencia de ejecución se ha registrado con éxito."
+    },
+    "Title": "Frecuencia de la colección de configuración de la máquina"
+  },
+
+  "MachineSettings": {
+    "Detail": {
+      "MachineName": "Nombre de la máquina",
+      "Ip": "Ip",
+      "UserDomainName": "Nombre de usuario de dominio",
+      "UserName": "Nombre de usuario",
+      "OSVersion": "Versión del sistema operativo",
+      "ServicePack": "Paquete de servicio",
+      "Is64BitSO": "Versión del sistema operativo",
+      "Manufacturer": "Fabricante",
+      "Model": "Modelo",
+      "SerialNumber": "Número de serie",
+      "LastBootUpTime": "Último tiempo de arranque",
+      "Processor": "Procesador",
+      "ProcessorCount": "Cantidad de núcleos del procesador",
+      "Is64BitProcessador": "Procesador de 64 bits",
+      "TotalMemory": "Memoria RAM",
+      "DiskList": "Lista de Discos",
+      "Partition": "Tabique",
+      "VolumeName": "Nombre Volumen",
+      "TotalSize": "Tamaño Total",
+      "FreeSpace": "Espacio libre",
+      "ProcessList": "Lista de proceso en ejecución",
+      "IdProcess": "Id Proceso",
+      "ProcessName": "Nombre del proceso",
+      "ProcessDescription": "Descripción del proceso",
+      "LastLogDate": "Última fecha de recolección de datos"
+    },
+    "Form": {
+      "MachineName": "Nombre de la máquina"
+    },
+    "NotFound":"No se pudo encontrar una máquina con ese nombre.",
+    "Title": "Configuración de las máquinas de la red"
+  },
+
+  "WindowsEvents": {
+    "Detail":{
+      "WindowsEventViewer": "Visor de eventos de Windows",
+      "Event": "Evento",
+      "Message": "Mensaje",
+      "Type":"Especie",
+      "GeneratedDate": "Fecha de Generación",
+      "WritedDate": "Fecha de Grabación",
+      "Machine": "Máquina",
+      "User": "Usuario",
+      "InstaceID": "ID de Instancia",
+      "Source": "Fuente",
+      "Category": "Categoría",
+      "NumberCategory": "Número de serie",
+      "ReplacementStrings": "Caracteres de Sustitución"
+    },
+    "Form": {
+      "MachineName": "Nombre de la máquina"
+    },
+    "Master":{
+      "Filter": "Filtro",
+      "GeneratedDate": "Fecha de Generación",
+      "ErrorType": "Tipo de error",
+      "EventType": "Tipo de Evento",
+      "NotFound": "No se encontraron los registros del Visor de eventos para la máquina con este nombre."
+    },
+    "Title": "Herois"
+  },
+
+  "EventParameters":{
+    "ParametersEventMonitoring": "Parámetros para la supervisión de eventos",
+    "AvailableCategories": "Categorías disponibles para filtro",
+    "EventType":"Tipos de Eventos",
+    "ExecutionFrequency": "Frecuencia de Ejecución del Servicio",
+    "NewEvent": "Nueva categoría de eventos",
+    "Form": {
+      "FrequencyMinutes": "Frecuencia en minutos",
+      "StartDate": "Fecha de inicio",
+      "EndDate": "Fecha final",
+      "FirstRun": "Días para buscar en la primera ejecución"
+    },
+    "Table": {
+      "Category":"Categorías"
+    },
+    "Dialog": {
+      "Title": "Guardar Parámetros",
+      "Text": "Desea realmente guardar este parámetro?",
+      "TitleNewItem": "Agregar nuevo elemento",
+      "Placeholder": "Descripción",
+      "SucessAdd": "Agregado exitosamente! Haga clic en Guardar para finalizar el proceso.",
+      "Remove": "Desea realmente eliminar este elemento?",
+      "SucessRemove": "Se eliminó correctamente! Haga clic en Guardar para finalizar el proceso."
+    }
+  },
+
+  "Login": {
+    "Form": {
+      "User": "Usuario",
+      "Password": "Contraseña"
+    },
+    "Dialog": {
+      "InvalidTitle": "Inténtalo de nuevo",
+      "InvalidText": "Login o contraseña no válida.",
+      "Title": "Star Wars Teste",
+      "Text": "Usuario no registrado."
+    },
+    "Title": "Iniciar sesión"
+  },
+
+  "CompanyRegister":{
+    "Form": {
+      "CompanyName": "Razón social",
+      "Cnpj": "CNPJ",
+      "Telephone": "Teléfono",
+      "Email":"E-mail",
+      "User": "Usuario",
+      "Password": "Contraseña",
+      "ConfirmPassword": "Confirmación Contraseña"
+    },
+    "Dialog": {
+      "Title": "Star Wars Teste",
+      "Text": "Empresa registrada con éxito.",
+      "WarningTitle": "Atención",
+      "WarningText": "La empresa ya está registrada."
+    },
+    "Title":"Registrarse"
+  },
+
+  "CompanyData":{
+    "Form": {
+      "Telephone": "Teléfono",
+      "Email":"E-mail",
+      "Password": "Contraseña Actual",
+      "NewPassword": "Nueva Contraseña",
+      "ConfirmNewPassword": "Confirmación Nueva Contraseña"
+    },
+    "Dialog": {
+      "Title": "Star Wars Teste",
+      "Text": "Datos actualizados con éxito.",
+      "Verify": "Compruebe los datos introducidos.",
+      "Password": "La contraseña actual no es correcta.",
+      "NewPassword": "La contraseña actual es igual a la nueva contraseña."
+    },
+    "Title":"Actualizar Datos"
+  },
+
+  "Button": {
+    "Login": "Iniciar sesión",
+    "Signup": "Regístrate",
+    "Cancel": "Cancelar",
+    "Return": "Regreso",
+    "Save": "Guardar",
+    "Search": "Buscar",
+    "Update": "Actualización"
+  },
+
+  "Actions":"Acciones",
+  "Error": "Error",
+  "Warning": "Advertencia",
+  "Information": "Información",
+  "SuccessAudit": "Auditoria de Exito",
+  "FailureAudit": "Auditoria de Fallas",
+  "UndefinedError": "Error indefinido",
+  "Yes": "Sí",
+  "No": "No",
+  "SucessAdd": "Añadido con éxito!",
+  "WannaLeave": "Deseas realmente salir?",
+  "SuccessSave": "Datos guardados con éxito!",
+  "RequiredField": "El campo es obligatorio.",
+  "RequiredValidField": "El campo es obligatorio y debe ser válido.",
+  "Verify": "Compruebe los datos introducidos."
+}
